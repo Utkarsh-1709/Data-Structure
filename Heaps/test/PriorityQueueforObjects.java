@@ -1,6 +1,6 @@
 package Heaps.test;
 
-import java.util.Comparator;
+// import java.util.Comparator;
 import java.util.PriorityQueue;
 
 import Heaps.service.Student;
