@@ -41,7 +41,7 @@ public class HeapImplementation {
 
         //Step 1:- Swap first and last
         int temp = list.get(0);
-        list.set(-0, list.get(list.size()-1));
+        list.set(0, list.get(list.size()-1));
         list.set(list.size()-1,temp);
 
         //Step2:- remove last
