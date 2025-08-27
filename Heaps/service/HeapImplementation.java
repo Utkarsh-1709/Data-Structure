@@ -6,8 +6,7 @@ import java.util.ArrayList;
  * Min Heap Implementation
  * Time Complexity: O(log n)
  * Space Complexity: O(n)
- * Approach: Using ArrayList to store the elements of the heap and maintaining the heap property by swapping elements 
- * while adding and removing elements.
+ * Approach: Using ArrayList to store the elements of the heap and maintaining the heap property by swapping elements while adding and removing elements.
  */
 
 public class HeapImplementation {
@@ -41,7 +40,7 @@ public class HeapImplementation {
 
         //Step 1:- Swap first and last
         int temp = list.get(0);
-        list.set(0, list.get(list.size()-1));
+        list.set(-0, list.get(list.size()-1));
         list.set(list.size()-1,temp);
 
         //Step2:- remove last
